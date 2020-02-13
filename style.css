@@ -2,6 +2,8 @@ body {
   
   background: #c2c2ff;
   font-family: Lato;
+  font-weight: bold;
+  color: #4d5263;
 }
 
 .item {
@@ -18,13 +20,16 @@ body {
 }
 
 button {
+  color: #4d5263;
+  font-family: Lato;
+  font-weight: bold;
   margin: 5vh;
   height: 50px;
   width: 100px;
   text-decoration: none;
   border: none;
-  border-radius: 50px;
+  border-radius: 22px;
   background: #c2c2ff;
-  box-shadow:  4px 4px 9px #a5a5d9, 
-             -4px -4px 9px #dfdfff;
+  box-shadow:  6px 6px 12px #a5a5d9, 
+              -6px -6px 12px #dfdfff;
 }
