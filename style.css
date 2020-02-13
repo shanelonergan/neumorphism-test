@@ -1,14 +1,30 @@
 body {
   
   background: #c2c2ff;
-}
-
-h1, h2 {
   font-family: Lato;
 }
 
 .item {
+  margin: 5vh;
+  padding: 10vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50px;
   box-shadow:  20px 20px 60px #a5a5d9, 
              -20px -20px 60px #dfdfff;
+}
+
+button {
+  margin: 5vh;
+  height: 50px;
+  width: 100px;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  background: #c2c2ff;
+  box-shadow:  4px 4px 9px #a5a5d9, 
+             -4px -4px 9px #dfdfff;
 }
